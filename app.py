@@ -42,10 +42,10 @@ TEMAS = {
     },
     "Santos": {
         "background": "#e8e8e8",
-        "text": "#3f0000",
+        "text": "#29221f",
         "accent": "#f0e8f0",
-        "secondary": "#c0c0c0",
-        "card_bg": "rgba(100, 100, 100, 0.1)",
+        "secondary": "#d1dab9",
+        "card_bg": "rgba(100, 120, 120, 0.1)",
         "input_bg": "#f5f5f5",
         "button_text": "#ffffff"
     }
