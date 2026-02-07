@@ -14,27 +14,27 @@ st.set_page_config(
 # Definição dos temas com cores melhoradas para melhor legibilidade
 TEMAS = {
     "Palmeiras": {
-        "background": "#0a3d1f",
-        "text": "#e8ffe8",
-        "accent": "#00ff41",
+        "background": "#123f0d",
+        "text": "#e6eb00",
+        "accent": "#566800",
         "secondary": "#1a5d3f",
-        "card_bg": "rgba(16, 61, 31, 0.6)",
-        "input_bg": "#0f4d29",
-        "button_text": "#003d1a"
+        "card_bg": "rgba(20, 65, 31, 0.6)",
+        "input_bg": "#464e08",
+        "button_text": "#727931"
     },
     "Corinthians": {
         "background": "#1a1a1a",
         "text": "#f5f5f5",
-        "accent": "#ffffff",
+        "accent": "#808080",
         "secondary": "#333333",
         "card_bg": "rgba(40, 40, 40, 0.6)",
         "input_bg": "#2a2a2a",
-        "button_text": "#000000"
+        "button_text": "#222222"
     },
     "São Paulo": {
-        "background": "#6b0f2a",
+        "background": "#c1818f",
         "text": "#fff8dc",
-        "accent": "#ffed4e",
+        "accent": "#c23a26",
         "secondary": "#8b1538",
         "card_bg": "rgba(107, 15, 42, 0.6)",
         "input_bg": "#8b1538",
@@ -42,10 +42,10 @@ TEMAS = {
     },
     "Santos": {
         "background": "#e8e8e8",
-        "text": "#1a1a1a",
-        "accent": "#2c2c2c",
+        "text": "#3f0000",
+        "accent": "#f0e8f0",
         "secondary": "#c0c0c0",
-        "card_bg": "rgba(255, 255, 255, 0.7)",
+        "card_bg": "rgba(100, 100, 100, 0.1)",
         "input_bg": "#f5f5f5",
         "button_text": "#ffffff"
     }
@@ -278,14 +278,14 @@ try:
         with col1:
             numero_busca1 = st.text_input(
                 "Busca 1:",
-                placeholder="Ex: 8455",
+                placeholder="Ex: digite os 4 números finais para buscar a remessa",
                 key="input_busca1",
                 value=st.session_state.busca1
             )
             
             numero_busca2 = st.text_input(
                 "Busca 2:",
-                placeholder="Ex: 6140",
+                placeholder="Ex: digite os 4 número finais para buscar a remessa",
                 key="input_busca2",
                 value=st.session_state.busca2
             )
@@ -293,14 +293,14 @@ try:
         with col2:
             numero_busca3 = st.text_input(
                 "Busca 3:",
-                placeholder="Ex: 9122",
+                placeholder="Ex: digite os 4 número finais para buscar a remessa",
                 key="input_busca3",
                 value=st.session_state.busca3
             )
             
             numero_busca4 = st.text_input(
                 "Busca 4:",
-                placeholder="Ex: 5621",
+                placeholder="Ex: digite os 4 número finais para buscar a remessa",
                 key="input_busca4",
                 value=st.session_state.busca4
             )
@@ -428,6 +428,6 @@ except Exception as e:
 # Footer discreto
 st.markdown("""
     <div class="footer">
-        Desenvolvido por Djalma A Barbosa 2026. Direitos reservados.
+        Desenvolvido por Djalma A Barbosa 2026. Direitos reservados®
     </div>
 """, unsafe_allow_html=True)
